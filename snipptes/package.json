@@ -1,0 +1,23 @@
+{
+  "name": "nvim-snippets",
+  "author": "authorname",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./vue/element-ui.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue/common.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue/vue-vscode.json"
+      }
+    ]
+  }
+}

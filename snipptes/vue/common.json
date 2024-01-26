@@ -1,0 +1,7 @@
+{
+  "clog": {
+    "prefix": "clog",
+    "body": "console.log('$0 => ', $0)",
+    "description": "控制台输出"
+  }
+}
