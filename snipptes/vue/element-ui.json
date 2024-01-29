@@ -1250,5 +1250,46 @@
       "${9}"
     ],
     "description": "Element UI <el-drawer>"
+  },
+  "Element Dialog Button": {
+    "prefix": "eldb",
+    "body": [
+      "<template>",
+      "  <span>",
+      "    <el-button type=\"primary\" size=\"small\" icon=\"el-icon-plus\" @click=\"open\">$0</el-button>",
+      "    <el-dialog title=\"$1\" :visible.sync=\"visible\" width=\"600px\" @close=\"close\">",
+      "      <div>$2</div>",
+      "      <span slot=\"footer\"></span>",
+      "        <el-button @click=\"visible = false\">取消</el-button>",
+      "        <el-button type=\"primary\" @click=\"submit\">确定</el-button>",
+      "      </span>",
+      "    </el-dialog>",
+      "  </span>",
+      "</template>",
+      "",
+      "<script>",
+      "  export default {",
+      "    data() {",
+      "      return {",
+      "        visible: false,",
+      "      };",
+      "    },",
+      "    methods: {",
+      "      open() {",
+      "        this.visible = true;",
+      "      },",
+      "      close() {",
+      "        this.visible = false;",
+      "      },",
+      "      submit() {",
+      "        this.$emit('submit');",
+      "      },",
+      "    },",
+      "  };",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>"
+    ],
+    "description": "Element UI 对话框按扭"
   }
 }

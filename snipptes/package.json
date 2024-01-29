@@ -17,6 +17,26 @@
       {
         "language": "vue",
         "path": "./vue/vue-vscode.json"
+      },
+      {
+        "language": "lua",
+        "path": "./lua/common.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./nest/nest-snippets-vscode.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./nest/typeorm.base.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./js-ts/common.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./js-ts/common.json"
       }
     ]
   }
