@@ -13,7 +13,12 @@ local del = vim.keymap.del
 --
 del("n", "<S-h>")
 del("n", "<S-l>")
+del("n", "<C-Up>")
+del("n", "<C-Down>")
 --
+keymap.set("n", "<C-Up>", "<Plug>(VM-Add-Cursor-Up)")
+keymap.set("n", "<C-Down>", "<Plug>(VM-Add-Cursor-Down)")
+
 keymap.set("n", "H", "^")
 keymap.set("n", "L", "$")
 keymap.set("v", "H", "^")
@@ -32,8 +37,8 @@ map("n", "<C-k>", "<C-w>k", { desc = "移动到上边窗口", remap = true })
 map("n", "<C-l>", "<C-w>l", { desc = "移动到右边窗口", remap = true })
 
 -- Resize window using <ctrl> arrow keys
-map("n", "<C-Up>", "<cmd>resize +2<cr>", { desc = "增减窗口高度" })
-map("n", "<C-Down>", "<cmd>resize -2<cr>", { desc = "减少窗口高度" })
+-- map("n", "<C-Up>", "<cmd>resize +2<cr>", { desc = "增减窗口高度" })
+-- map("n", "<C-Down>", "<cmd>resize -2<cr>", { desc = "减少窗口高度" })
 map("n", "<C-Left>", "<cmd>vertical resize -2<cr>", { desc = "减少窗口宽度" })
 map("n", "<C-Right>", "<cmd>vertical resize +2<cr>", { desc = "增加窗口宽度" })
 
@@ -46,8 +51,8 @@ map("v", "<A-j>", ":m '>+1<cr>gv=gv", { desc = "向下移动" })
 map("v", "<A-k>", ":m '<-2<cr>gv=gv", { desc = "向上移动" })
 
 -- buffers
--- map("n", "<S-h>", "<cmd>bprevious<cr>", { desc = "上一个缓冲区" })
 -- map("n", "<S-l>", "<cmd>bnext<cr>", { desc = "下一个缓冲区" })
+-- map("n", "<S-h>", "<cmd>bprevious<cr>", { desc = "上一个缓冲区" })
 map("n", "[b", "<cmd>bprevious<cr>", { desc = "上一个缓冲区" })
 map("n", "]b", "<cmd>bnext<cr>", { desc = "下一个缓冲区" })
 map("n", "<leader>bb", "<cmd>e #<cr>", { desc = "切换到其他缓冲区" })
