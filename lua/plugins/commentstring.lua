@@ -1,7 +1,7 @@
 return {
   "JoosepAlviste/nvim-ts-context-commentstring",
   config = function()
-    require("ts_context_commentstring").setup({
+    require("nvim-treesitter.configs").setup({
       context_commentstring = {
         enable_autocmd = false,
         enable = true,
