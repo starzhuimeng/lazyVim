@@ -2,7 +2,7 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 -- neovide 字体字号
-vim.o.guifont = "MonaspiceAr_Nerd_Font_Mono:h12" -- text below applies for VimScript
+vim.o.guifont = "MonaspiceAr_Nerd_Font_Mono:h16" -- text below applies for VimScript
 -- 透明度 helper函数
 local function alpha()
   return string.format("%x", math.floor(255 * vim.g.transparency or 0.8))
