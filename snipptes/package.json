@@ -37,6 +37,58 @@
       {
         "language": "javascript",
         "path": "./js-ts/common.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue/uniapp-vue-html.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue/uniapp-css.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue/uniapp-javascript.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./vue/uniapp-javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./vue/uniapp-javascript.json"
+      },
+      {
+        "language": "css",
+        "path": "./vue/uniapp-css.json"
+      },
+      {
+        "language": "less",
+        "path": "./vue/uniapp-css.json"
+      },
+      {
+        "language": "scss",
+        "path": "./vue/uniapp-css.json"
+      },
+      {
+        "language": "sass",
+        "path": "./vue/uniapp-css.json"
+      },
+      {
+        "language": "stylus",
+        "path": "./vue/uniapp-css.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue/uview-js.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue/uview-html.json"
+      },
+      {
+        "language": "vue",
+        "path": "./vue/uview-html-js.json"
       }
     ]
   }
