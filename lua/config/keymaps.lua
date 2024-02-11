@@ -24,6 +24,8 @@ keymap.set("n", "L", "$")
 keymap.set("v", "H", "^")
 keymap.set("v", "L", "$")
 
+-- map({ "i", "v" }, "jk", "<Esc><Esc>", { desc = "退出当前模式" })
+
 -- better up/down
 map({ "n", "x" }, "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 map({ "n", "x" }, "<Down>", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
