@@ -89,6 +89,22 @@
       {
         "language": "vue",
         "path": "./vue/uview-html-js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./react/common.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./react/common.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./react/common-ts.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./react/common-ts.json"
       }
     ]
   }
